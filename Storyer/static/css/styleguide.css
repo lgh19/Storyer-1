@@ -1,0 +1,109 @@
+:root { 
+  --axolotl: #486a4f;
+  --black: #000000;
+  --cascade: #86acab;
+  --dove-gray: #707070;
+  --licorice: #151515;
+  --silver-chalice: #afafaf;
+  --white: #ffffff;
+  --white-2: #ffffffcc;
+  --white-3: #ffffffcc;
+ 
+  --font-size-l: 26px;
+  --font-size-m: 20px;
+  --font-size-s: 19px;
+  --font-size-xl: 30px;
+  --font-size-xs: 18px;
+  --font-size-xxl: 36px;
+  --font-size-xxs: 16px;
+ 
+  --font-family-alnile-bold: "AlNile-Bold", Helvetica;
+  --font-family-sinhalamn-bold: "SinhalaMN-Bold", Helvetica;
+}
+.alnile-bold-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-alnile-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.alnile-bold-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-alnile-bold);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.sinhalamn-bold-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-sinhalamn-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.sinhalamn-bold-black-36px {
+  color: var(--black);
+  font-family: var(--font-family-sinhalamn-bold);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.alnile-bold-silver-chalice-16px {
+  color: var(--silver-chalice);
+  font-family: var(--font-family-alnile-bold);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.alnile-bold-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-alnile-bold);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.sinhalamn-bold-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-sinhalamn-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.alnile-bold-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-alnile-bold);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.alnile-bold-black-26px {
+  color: var(--black);
+  font-family: var(--font-family-alnile-bold);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.sinhalamn-bold-black-26px {
+  color: var(--black);
+  font-family: var(--font-family-sinhalamn-bold);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.sinhalamn-bold-white-30px {
+  color: var(--white);
+  font-family: var(--font-family-sinhalamn-bold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}

@@ -1,0 +1,282 @@
+/* screen - pick */
+
+.pick {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 800px;
+  padding: 23.0px 42px;
+  width: 1280px;
+}
+
+.pick .overlap-group {
+  border-radius: 40px;
+  height: 754px;
+  margin-top: 0;
+  position: relative;
+  width: 1196px;
+}
+
+.pick .group-1 {
+  background-color: var(--cascade);
+  border-radius: 40px;
+  display: flex;
+  height: 754px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1196px;
+}
+
+.pick .rectangle-54 {
+  background-color: var(--axolotl);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 40px 40px 0px 0px;
+  flex: 1;
+  height: 200px;
+  margin-left: 1px;
+  opacity: 0.7;
+}
+
+.pick .select {
+  left: 204px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 636px;
+  white-space: nowrap;
+}
+
+.pick .grouppeopleteamusers {
+  height: 91px;
+  left: 197px;
+  object-fit: cover;
+  position: absolute;
+  top: 262px;
+  width: 91px;
+}
+
+.pick .rectangle-100 {
+  background: linear-gradient(180deg, #1590eb 0%, #133245 100%);
+  border-radius: 57px;
+  height: 37px;
+  left: 191px;
+  position: absolute;
+  top: 365px;
+  width: 103px;
+}
+
+.pick .group-1-1 {
+  left: 204px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 373px;
+  white-space: nowrap;
+}
+
+.pick .rectangle-63 {
+  background-color: var(--white);
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 193px;
+  left: 150px;
+  opacity: 0.8;
+  position: absolute;
+  top: 416px;
+  width: 186px;
+}
+
+.pick .rectangle-52 {
+  background: linear-gradient(180deg, #1590eb 0%, #133245 100%);
+  border-radius: 57px;
+  height: 50px;
+  left: 1074px;
+  position: absolute;
+  top: 673px;
+  width: 103px;
+}
+
+.pick .submit {
+  left: 1095px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 692px;
+  white-space: nowrap;
+}
+
+.pick .select-1 {
+  left: 464px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 636px;
+  white-space: nowrap;
+}
+
+.pick .grouppeopleteamusers-1 {
+  height: 91px;
+  left: 450px;
+  object-fit: cover;
+  position: absolute;
+  top: 262px;
+  width: 91px;
+}
+
+.pick .rectangle-101 {
+  background: linear-gradient(180deg, #1590eb 0%, #133245 100%);
+  border-radius: 57px;
+  height: 37px;
+  left: 444px;
+  position: absolute;
+  top: 365px;
+  width: 103px;
+}
+
+.pick .group-2 {
+  left: 457px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 373px;
+  white-space: nowrap;
+}
+
+.pick .rectangle-102 {
+  background-color: var(--white);
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 193px;
+  left: 403px;
+  opacity: 0.8;
+  position: absolute;
+  top: 415px;
+  width: 186px;
+}
+
+.pick .select-2 {
+  left: 716px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 636px;
+  white-space: nowrap;
+}
+
+.pick .grouppeopleteamusers-2 {
+  height: 91px;
+  left: 703px;
+  object-fit: cover;
+  position: absolute;
+  top: 262px;
+  width: 91px;
+}
+
+.pick .rectangle-103 {
+  background: linear-gradient(180deg, #1590eb 0%, #133245 100%);
+  border-radius: 57px;
+  height: 37px;
+  left: 697px;
+  position: absolute;
+  top: 365px;
+  width: 103px;
+}
+
+.pick .group-3 {
+  left: 710px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 373px;
+  white-space: nowrap;
+}
+
+.pick .rectangle-104 {
+  background-color: var(--white);
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 193px;
+  left: 656px;
+  opacity: 0.8;
+  position: absolute;
+  top: 416px;
+  width: 186px;
+}
+
+.pick .select-3 {
+  left: 975px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 636px;
+  white-space: nowrap;
+}
+
+.pick .grouppeopleteamusers-3 {
+  height: 91px;
+  left: 956px;
+  object-fit: cover;
+  position: absolute;
+  top: 262px;
+  width: 91px;
+}
+
+.pick .rectangle-105 {
+  background: linear-gradient(180deg, #1590eb 0%, #133245 100%);
+  border-radius: 57px;
+  height: 37px;
+  left: 950px;
+  position: absolute;
+  top: 365px;
+  width: 103px;
+}
+
+.pick .group-4 {
+  left: 963px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 373px;
+  white-space: nowrap;
+}
+
+.pick .rectangle-106 {
+  background-color: var(--white);
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 193px;
+  left: 909px;
+  opacity: 0.8;
+  position: absolute;
+  top: 416px;
+  width: 186px;
+}
+
+.pick .unknown {
+  height: 77px;
+  left: 62px;
+  object-fit: cover;
+  position: absolute;
+  top: 64px;
+  width: 259px;
+}

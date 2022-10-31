@@ -1,0 +1,117 @@
+/* screen - check */
+
+.check {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 800px;
+  padding: 0 42px;
+  width: 1280px;
+}
+
+.check .overlap-group {
+  border-radius: 40px;
+  height: 754px;
+  margin-top: 23px;
+  position: relative;
+  width: 1196px;
+}
+
+.check .group-1 {
+  background-color: var(--cascade);
+  border-radius: 40px;
+  display: flex;
+  height: 754px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1196px;
+}
+
+.check .rectangle-54 {
+  background-color: var(--axolotl);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 40px 40px 0px 0px;
+  flex: 1;
+  height: 200px;
+  margin-left: 1px;
+  opacity: 0.7;
+}
+
+.check .rectangle-110 {
+  background-color: var(--white);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 60px;
+  left: 647px;
+  opacity: 0.8;
+  position: absolute;
+  top: 407px;
+  width: 190px;
+}
+
+.check .rectangle-111 {
+  background-color: var(--white);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 60px;
+  left: 368px;
+  opacity: 0.8;
+  position: absolute;
+  top: 407px;
+  width: 190px;
+}
+
+.check .rectangle-112 {
+  background-color: var(--white);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 60px;
+  left: 89px;
+  opacity: 0.8;
+  position: absolute;
+  top: 407px;
+  width: 190px;
+}
+
+.check .rectangle-113 {
+  background-color: var(--white);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 60px;
+  left: 926px;
+  opacity: 0.8;
+  position: absolute;
+  top: 407px;
+  width: 190px;
+}
+
+.check .check-submissions {
+  left: 368px;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 10px 20px #00000029;
+  top: 214px;
+  width: 462px;
+}
+
+.check .unknown {
+  height: 77px;
+  left: 62px;
+  object-fit: cover;
+  position: absolute;
+  top: 64px;
+  width: 259px;
+}
+
+.check .icon-awesome-home {
+  height: 41px;
+  left: 38px;
+  object-fit: cover;
+  position: absolute;
+  top: 233px;
+  width: 48px;
+}

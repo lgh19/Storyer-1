@@ -1,0 +1,217 @@
+/* screen - sland */
+
+.sland {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 800px;
+  padding: 23.0px 42px;
+  width: 1280px;
+}
+
+.sland .overlap-group {
+  border-radius: 40px;
+  height: 754px;
+  margin-top: 0;
+  position: relative;
+  width: 1196px;
+}
+
+.sland .group-1 {
+  background-color: var(--cascade);
+  border-radius: 40px;
+  display: flex;
+  height: 754px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1196px;
+}
+
+.sland .rectangle-54 {
+  background-color: var(--axolotl);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 40px 40px 0px 0px;
+  flex: 1;
+  height: 200px;
+  margin-left: 1px;
+  opacity: 0.7;
+}
+
+.sland .grouppeopleteamusers {
+  height: 86px;
+  left: 154px;
+  object-fit: cover;
+  position: absolute;
+  top: 301px;
+  width: 86px;
+}
+
+.sland .rectangle-74 {
+  background-color: var(--white);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 49px;
+  left: 273px;
+  opacity: 0.8;
+  position: absolute;
+  top: 325px;
+  width: 299px;
+}
+
+.sland .rectangle-75 {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 185px;
+  left: 783px;
+  opacity: 0.8;
+  position: absolute;
+  top: 501px;
+  width: 239px;
+}
+
+.sland .team-description {
+  color: var(--black);
+  font-family: var(--font-family-alnile-bold);
+  font-size: var(--font-size-s);
+  font-weight: 700;
+  left: 823px;
+  letter-spacing: 0;
+  line-height: 18px;
+  opacity: 0.5;
+  position: absolute;
+  text-align: center;
+  top: 480px;
+  white-space: nowrap;
+}
+
+.sland .rectangle-77 {
+  background: linear-gradient(180deg, #1590eb 0%, #0b4876 100%);
+  border-radius: 46px;
+  box-shadow: 0px 3px 6px #00000029;
+  cursor: pointer;
+  height: 49px;
+  left: 754px;
+  position: absolute;
+  top: 325px;
+  width: 268px;
+}
+
+.sland .assignments {
+  cursor: pointer;
+  left: 823px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 344px;
+  white-space: nowrap;
+}
+
+.sland .team-home {
+  left: 436px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 10px 20px #00000029;
+  top: 243px;
+  width: 327px;
+}
+
+.sland .rectangle-87 {
+  background: linear-gradient(180deg, #1590eb 0%, #0b4876 100%);
+  border-radius: 46px;
+  box-shadow: 0px 3px 6px #00000029;
+  cursor: pointer;
+  height: 49px;
+  left: 754px;
+  position: absolute;
+  top: 395px;
+  width: 268px;
+}
+
+.sland .groups {
+  cursor: pointer;
+  left: 852px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 413px;
+  white-space: nowrap;
+}
+
+.sland .rectangle-91 {
+  background-color: var(--white);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 49px;
+  left: 273px;
+  opacity: 0.8;
+  position: absolute;
+  top: 601px;
+  width: 299px;
+}
+
+.sland .rectangle-92 {
+  background-color: var(--white);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 49px;
+  left: 273px;
+  opacity: 0.8;
+  position: absolute;
+  top: 510px;
+  width: 299px;
+}
+
+.sland .rectangle-93 {
+  background-color: var(--white);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 49px;
+  left: 273px;
+  opacity: 0.8;
+  position: absolute;
+  top: 415px;
+  width: 299px;
+}
+
+.sland .grouppeopleteamusers-1 {
+  height: 86px;
+  left: 154px;
+  object-fit: cover;
+  position: absolute;
+  top: 582px;
+  width: 86px;
+}
+
+.sland .grouppeopleteamusers-2 {
+  height: 86px;
+  left: 154px;
+  object-fit: cover;
+  position: absolute;
+  top: 489px;
+  width: 86px;
+}
+
+.sland .grouppeopleteamusers-3 {
+  height: 86px;
+  left: 154px;
+  object-fit: cover;
+  position: absolute;
+  top: 395px;
+  width: 86px;
+}
+
+.sland .unknown {
+  height: 77px;
+  left: 62px;
+  object-fit: cover;
+  position: absolute;
+  top: 64px;
+  width: 259px;
+}

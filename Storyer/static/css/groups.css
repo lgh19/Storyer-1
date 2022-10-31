@@ -1,0 +1,127 @@
+/* screen - groups */
+
+.groups {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 800px;
+  padding: 23.0px 42px;
+  width: 1280px;
+}
+
+.groups .overlap-group {
+  border-radius: 40px;
+  height: 754px;
+  margin-top: 0;
+  position: relative;
+  width: 1196px;
+}
+
+.groups .group-1 {
+  background-color: var(--cascade);
+  border-radius: 40px;
+  display: flex;
+  height: 754px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1196px;
+}
+
+.groups .rectangle-54 {
+  background-color: var(--axolotl);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 40px 40px 0px 0px;
+  flex: 1;
+  height: 200px;
+  margin-left: 1px;
+  opacity: 0.7;
+}
+
+.groups .rectangle-52 {
+  background: linear-gradient(180deg, #1590eb 0%, #133245 100%);
+  border-radius: 57px;
+  height: 50px;
+  left: 1074px;
+  position: absolute;
+  top: 673px;
+  width: 103px;
+}
+
+.groups .submit {
+  left: 1095px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 692px;
+  white-space: nowrap;
+}
+
+.groups .grouppeopleteamusers {
+  height: 91px;
+  left: 252px;
+  object-fit: cover;
+  position: absolute;
+  top: 307px;
+  width: 91px;
+}
+
+.groups .rectangle-101 {
+  background: linear-gradient(180deg, #1590eb 0%, #133245 100%);
+  border-radius: 57px;
+  height: 37px;
+  left: 246px;
+  position: absolute;
+  top: 452px;
+  width: 103px;
+}
+
+.groups .grouppeopleteamusers-1 {
+  height: 91px;
+  left: 553px;
+  object-fit: cover;
+  position: absolute;
+  top: 307px;
+  width: 91px;
+}
+
+.groups .rectangle-103 {
+  background: linear-gradient(180deg, #1590eb 0%, #133245 100%);
+  border-radius: 57px;
+  height: 37px;
+  left: 546px;
+  position: absolute;
+  top: 452px;
+  width: 103px;
+}
+
+.groups .grouppeopleteamusers-2 {
+  height: 91px;
+  left: 854px;
+  object-fit: cover;
+  position: absolute;
+  top: 307px;
+  width: 91px;
+}
+
+.groups .rectangle-105 {
+  background: linear-gradient(180deg, #1590eb 0%, #133245 100%);
+  border-radius: 57px;
+  height: 37px;
+  left: 847px;
+  position: absolute;
+  top: 452px;
+  width: 103px;
+}
+
+.groups .unknown {
+  height: 77px;
+  left: 62px;
+  object-fit: cover;
+  position: absolute;
+  top: 64px;
+  width: 259px;
+}

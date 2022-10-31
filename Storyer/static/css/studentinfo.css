@@ -1,0 +1,309 @@
+/* screen - studentinfo */
+
+.studentinfo {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 800px;
+  padding: 0 42px;
+  width: 1280px;
+}
+
+.studentinfo .overlap-group {
+  border-radius: 40px;
+  height: 754px;
+  margin-top: 23px;
+  position: relative;
+  width: 1196px;
+}
+
+.studentinfo .group-1 {
+  background-color: var(--cascade);
+  border-radius: 40px;
+  display: flex;
+  height: 754px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1196px;
+}
+
+.studentinfo .rectangle-54 {
+  background-color: var(--axolotl);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 40px 40px 0px 0px;
+  flex: 1;
+  height: 200px;
+  margin-left: 1px;
+  opacity: 0.7;
+}
+
+.studentinfo .student-info {
+  left: 436px;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 10px 20px #00000029;
+  top: 235px;
+  width: 327px;
+}
+
+.studentinfo .rectangle-73 {
+  background-color: var(--white);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 57px;
+  left: 166px;
+  opacity: 0.8;
+  position: absolute;
+  top: 481px;
+  width: 395px;
+}
+
+.studentinfo .rectangle-78 {
+  background-color: var(--white);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 60px;
+  left: 690px;
+  opacity: 0.8;
+  position: absolute;
+  top: 321px;
+  width: 395px;
+}
+
+.studentinfo .student-name {
+  left: 275px;
+  letter-spacing: 0;
+  line-height: 26px;
+  opacity: 0.5;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 502px;
+  white-space: nowrap;
+}
+
+.studentinfo .rectangle-102 {
+  background-color: var(--white);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 57px;
+  left: 166px;
+  opacity: 0.8;
+  position: absolute;
+  top: 560px;
+  width: 395px;
+}
+
+.studentinfo .group-they-are-in {
+  left: 254px;
+  letter-spacing: 0;
+  line-height: 26px;
+  opacity: 0.5;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 579px;
+  white-space: nowrap;
+}
+
+.studentinfo .rectangle-79 {
+  background-color: var(--white);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 66px;
+  left: 608px;
+  opacity: 0.8;
+  position: absolute;
+  top: 318px;
+  width: 71px;
+}
+
+.studentinfo .x1st {
+  left: 626px;
+  letter-spacing: 0;
+  line-height: 20px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 342px;
+  white-space: nowrap;
+}
+
+.studentinfo .rectangle-92 {
+  background-color: var(--white);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 52px;
+  left: 177px;
+  opacity: 0.8;
+  position: absolute;
+  top: 325px;
+  width: 395px;
+}
+
+.studentinfo .search {
+  color: var(--black);
+  font-family: var(--font-family-alnile-bold);
+  font-size: var(--font-size-s);
+  font-weight: 700;
+  left: 332px;
+  letter-spacing: 0;
+  line-height: 19px;
+  opacity: 0.5;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 341px;
+  white-space: nowrap;
+}
+
+.studentinfo .rectangle-103 {
+  background-color: var(--white);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 60px;
+  left: 691px;
+  opacity: 0.8;
+  position: absolute;
+  top: 561px;
+  width: 395px;
+}
+
+.studentinfo .rectangle-104 {
+  background-color: var(--white);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 60px;
+  left: 691px;
+  opacity: 0.8;
+  position: absolute;
+  top: 482px;
+  width: 395px;
+}
+
+.studentinfo .rectangle-105 {
+  background-color: var(--white);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 60px;
+  left: 690px;
+  opacity: 0.8;
+  position: absolute;
+  top: 400px;
+  width: 395px;
+}
+
+.studentinfo .rectangle-106 {
+  background-color: var(--white);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 66px;
+  left: 608px;
+  opacity: 0.8;
+  position: absolute;
+  top: 555px;
+  width: 71px;
+}
+
+.studentinfo .rectangle-107 {
+  background-color: var(--white);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 66px;
+  left: 608px;
+  opacity: 0.8;
+  position: absolute;
+  top: 476px;
+  width: 71px;
+}
+
+.studentinfo .rectangle-108 {
+  background-color: var(--white);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 66px;
+  left: 608px;
+  opacity: 0.8;
+  position: absolute;
+  top: 397px;
+  width: 71px;
+}
+
+.studentinfo .x2nd {
+  left: 626px;
+  letter-spacing: 0;
+  line-height: 20px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 420px;
+  white-space: nowrap;
+}
+
+.studentinfo .x3rd {
+  left: 628px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 500px;
+  white-space: nowrap;
+}
+
+.studentinfo .x4th {
+  left: 628px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 581px;
+  white-space: nowrap;
+}
+
+.studentinfo .rectangle-52 {
+  background: linear-gradient(180deg, #1590eb 0%, #133245 100%);
+  border-radius: 57px;
+  cursor: pointer;
+  height: 50px;
+  left: 983px;
+  position: absolute;
+  top: 658px;
+  width: 103px;
+}
+
+.studentinfo .go-back {
+  cursor: pointer;
+  left: 998px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 680px;
+  white-space: nowrap;
+}
+
+.studentinfo .unknown {
+  height: 77px;
+  left: 62px;
+  object-fit: cover;
+  position: absolute;
+  top: 64px;
+  width: 259px;
+}
+
+.studentinfo .icon-awesome-home {
+  height: 41px;
+  left: 38px;
+  object-fit: cover;
+  position: absolute;
+  top: 233px;
+  width: 48px;
+}

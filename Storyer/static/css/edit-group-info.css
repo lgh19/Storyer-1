@@ -1,0 +1,208 @@
+/* screen - edit-group-info */
+
+.edit-group-info {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 800px;
+  padding: 50px 90px;
+  width: 1280px;
+}
+
+.edit-group-info .flex-col {
+  align-items: flex-end;
+  background-color: var(--cascade);
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 1px;
+  min-height: 699px;
+  width: 1100px;
+}
+
+.edit-group-info .group-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 569px;
+  width: 1099px;
+}
+
+.edit-group-info .overlap-group5 {
+  align-items: flex-start;
+  background-color: #486a4fb2;
+  border: 1px solid;
+  border-color: #707070b2;
+  border-radius: 40px 40px 0px 0px;
+  display: flex;
+  height: 200px;
+  min-width: 1099px;
+  padding: 61px 54px;
+}
+
+.edit-group-info .unknown {
+  cursor: pointer;
+  height: 77px;
+  object-fit: cover;
+  width: 259px;
+}
+
+.edit-group-info .group-1 {
+  color: var(--black);
+  font-family: var(--font-family-sinhalamn-bold);
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: 2.0px;
+  margin-top: 8px;
+  min-height: 49px;
+  text-align: center;
+  text-shadow: 0px 10px 20px #00000029;
+  width: 327px;
+}
+
+.edit-group-info .overlap-group3 {
+  height: 65px;
+  margin-right: 362.0px;
+  margin-top: 34px;
+  position: relative;
+  width: 355px;
+}
+
+.edit-group-info .rectangle-61 {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px #00000029;
+  height: 41px;
+  left: 0;
+  opacity: 0.8;
+  position: absolute;
+  top: 24px;
+  width: 355px;
+}
+
+.edit-group-info .name {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 0;
+  white-space: nowrap;
+}
+
+.edit-group-info .overlap-group4 {
+  height: 177px;
+  margin-right: 321.0px;
+  margin-top: 36px;
+  position: relative;
+  width: 396px;
+}
+
+.edit-group-info .rectangle-60 {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px #00000029;
+  height: 153px;
+  left: 0;
+  opacity: 0.8;
+  position: absolute;
+  top: 24px;
+  width: 396px;
+}
+
+.edit-group-info .description {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 0;
+  white-space: nowrap;
+}
+
+.edit-group-info .overlap-group-container {
+  align-items: flex-end;
+  display: flex;
+  height: 64px;
+  margin-right: 34px;
+  min-width: 874px;
+}
+
+.edit-group-info .overlap-group6 {
+  align-items: flex-end;
+  align-self: flex-start;
+  background: linear-gradient(180deg, #1590eb 0%, #0e446c 100%);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  min-width: 146px;
+  padding: 11px 37px;
+}
+
+.edit-group-info .upload {
+  letter-spacing: 0;
+  line-height: 20px;
+  min-height: 22px;
+  min-width: 70px;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  white-space: nowrap;
+}
+
+.edit-group-info .overlap-group2 {
+  border-radius: 57px;
+  height: 50px;
+  margin-left: 513px;
+  position: relative;
+  width: 103px;
+}
+
+.edit-group-info .rectangle-52 {
+  background: linear-gradient(180deg, #1590eb 0%, #133245 100%);
+  border-radius: 57px;
+  cursor: pointer;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 103px;
+}
+
+.edit-group-info .go-back {
+  cursor: pointer;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 21px;
+  white-space: nowrap;
+}
+
+.edit-group-info .overlap-group1 {
+  border-radius: 57px;
+  height: 50px;
+  margin-left: 9px;
+  position: relative;
+  width: 103px;
+}
+
+.edit-group-info .save {
+  cursor: pointer;
+  left: 31px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 20px;
+  white-space: nowrap;
+}

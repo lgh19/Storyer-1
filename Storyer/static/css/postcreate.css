@@ -1,0 +1,54 @@
+/* screen - postcreate */
+
+.postcreate {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 800px;
+  padding: 0 64px;
+  width: 1280px;
+}
+
+.postcreate .overlap-group {
+  background-image: url(../../static/media/img/hand-with-protective-gloves-holding-blood-samples-covid-test-1x-@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 20px;
+  height: 768px;
+  margin-top: 16px;
+  position: relative;
+  width: 1152px;
+}
+
+.postcreate .rectangle-11 {
+  background-color: var(--licorice);
+  border-radius: 20px;
+  height: 550px;
+  left: 164px;
+  opacity: 0.8;
+  position: absolute;
+  top: 109px;
+  width: 825px;
+}
+
+.postcreate .you-have-successfull {
+  left: 249px;
+  letter-spacing: 0;
+  line-height: 30px;
+  opacity: 1.0;
+  position: absolute;
+  text-align: center;
+  top: 246px;
+  white-space: nowrap;
+}
+
+.postcreate .continue {
+  cursor: pointer;
+  left: 525px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 586px;
+  white-space: nowrap;
+}

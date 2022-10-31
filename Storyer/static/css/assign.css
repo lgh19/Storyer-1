@@ -1,0 +1,181 @@
+/* screen - assign */
+
+.assign {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 800px;
+  padding: 0 42px;
+  width: 1280px;
+}
+
+.assign .overlap-group {
+  border-radius: 40px;
+  height: 754px;
+  margin-top: 23px;
+  position: relative;
+  width: 1196px;
+}
+
+.assign .group-1 {
+  background-color: var(--cascade);
+  border-radius: 40px;
+  display: flex;
+  height: 754px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1196px;
+}
+
+.assign .rectangle-54 {
+  background-color: var(--axolotl);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 40px 40px 0px 0px;
+  flex: 1;
+  height: 200px;
+  margin-left: 1px;
+  opacity: 0.7;
+}
+
+.assign .create-assignments {
+  left: 386px;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 10px 20px #00000029;
+  top: 218px;
+  width: 426px;
+}
+
+.assign .rectangle-60 {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px #00000029;
+  height: 153px;
+  left: 240px;
+  opacity: 0.8;
+  position: absolute;
+  top: 444px;
+  width: 396px;
+}
+
+.assign .rectangle-61 {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px #00000029;
+  height: 41px;
+  left: 240px;
+  opacity: 0.8;
+  position: absolute;
+  top: 343px;
+  width: 355px;
+}
+
+.assign .name {
+  left: 240px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 319px;
+  white-space: nowrap;
+}
+
+.assign .description {
+  left: 240px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 420px;
+  white-space: nowrap;
+}
+
+.assign .rectangle-90 {
+  background: linear-gradient(180deg, #1590eb 0%, #0e446c 100%);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 50px;
+  left: 240px;
+  position: absolute;
+  top: 615px;
+  width: 146px;
+}
+
+.assign .upload {
+  left: 279px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 632px;
+  white-space: nowrap;
+}
+
+.assign .rectangle-52 {
+  background: linear-gradient(180deg, #1590eb 0%, #133245 100%);
+  border-radius: 57px;
+  height: 50px;
+  left: 1011px;
+  position: absolute;
+  top: 629px;
+  width: 103px;
+}
+
+.assign .submit {
+  left: 1032px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 649px;
+  white-space: nowrap;
+}
+
+.assign .rectangle-52-1 {
+  background: linear-gradient(180deg, #1590eb 0%, #133245 100%);
+  border-radius: 57px;
+  cursor: pointer;
+  height: 50px;
+  left: 899px;
+  position: absolute;
+  top: 629px;
+  width: 103px;
+}
+
+.assign .go-back {
+  cursor: pointer;
+  left: 914px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 650px;
+  white-space: nowrap;
+}
+
+.assign .unknown {
+  height: 77px;
+  left: 62px;
+  object-fit: cover;
+  position: absolute;
+  top: 64px;
+  width: 259px;
+}
+
+.assign .icon-awesome-home {
+  height: 41px;
+  left: 38px;
+  object-fit: cover;
+  position: absolute;
+  top: 233px;
+  width: 48px;
+}
