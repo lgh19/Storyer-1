@@ -1,39 +1,30 @@
 <!DOCTYPE html>
-<html lang='en'>
-
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE = edge">
-  <meta name="viewport" content="width=device-width initial-scale=1.0">
-  <title>
-    Initial Sign Up
-  </title>
-  <meta name="viewport" content="width=device-width,intital-scale=1.0">
-
-  {% load static %}
-  <link rel='stylesheet' href='../../static/stylesheets/styles.css' />
-</head>
-
-<body>
-  <div class="logo-container">
-    {% load static %}
-    <img src="../../static/media/images/logo.png" alt="logo">
-
-  </div>
-  <form action="./" method="post">
-
-    <div>
-      <button type="submit" class="button">
-        <a href="{% url 'storyer:login' %}">FACULTY</a>
-      </button>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=1280, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="../../static/css/index.css" />
+    <link rel="stylesheet" type="text/css" href="../../static/css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="../../static/css/globals.css" />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="index" />
+    <div class="container-center-horizontal">
+      <div class="index screen">
+        <div class="overlap-group">
+          <img class="unknown" src="../../static/media/img/unknown-1x-png-1x-png-1x-png-1x-png-1x-png@1x.png" alt="Unknown" />
+          <div class="overlap-group1"><div class="student">STUDENT</div></div>
+          <div class="overlap-group2"><div class="facility">FACILITY</div></div>
+          <div class="log-in">
+            <span class="span alnile-bold-white-18px">L</span><span class="span alnile-bold-white-18px">OG IN</span>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <div>
-      <button type="submit" class="button">
-        <a href="{% url 'storyer:login' %}">STUDENT</a>
-      </button>
-    </div>
-
-  </form>
-
-</body>
+  </body>
+</html>
