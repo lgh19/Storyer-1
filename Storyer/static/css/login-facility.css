@@ -1,0 +1,114 @@
+/* screen - login-facility */
+
+.login-facility {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 800px;
+  padding: 58.4px 133px;
+  width: 1280px;
+}
+
+.login-facility .overlap-group {
+  background-image: url(../img/hand-with-protective-gloves-holding-blood-samples-covid-test@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 20px;
+  height: 675px;
+  position: relative;
+  width: 1014px;
+}
+
+.login-facility .rectangle-11 {
+  background-color: var(--licorice);
+  border-radius: 20px;
+  height: 550px;
+  left: 95px;
+  opacity: 0.8;
+  position: absolute;
+  top: 67px;
+  width: 825px;
+}
+
+.login-facility .rectangle-17 {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 66px;
+  left: 305px;
+  opacity: 0.8;
+  position: absolute;
+  top: 248px;
+  width: 404px;
+}
+
+.login-facility .rectangle-18 {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 10px;
+  height: 66px;
+  left: 305px;
+  opacity: 0.8;
+  position: absolute;
+  top: 323px;
+  width: 404px;
+}
+
+.login-facility .password {
+  left: 469px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 350px;
+  white-space: nowrap;
+}
+
+.login-facility .email {
+  left: 486px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 275px;
+  white-space: nowrap;
+}
+
+.login-facility .sign-on {
+  color: var(--white);
+  font-family: var(--font-family-alnile-bold);
+  font-size: 54px;
+  font-weight: 700;
+  left: 395px;
+  letter-spacing: 0;
+  line-height: 54px;
+  opacity: 1.0;
+  position: absolute;
+  text-align: center;
+  top: 115px;
+  white-space: nowrap;
+}
+
+.login-facility .log-in {
+  cursor: pointer;
+  left: 473px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 546px;
+  white-space: nowrap;
+}
+
+.login-facility .icon-awesome-backspace {
+  cursor: pointer;
+  height: 17px;
+  left: 876px;
+  object-fit: cover;
+  position: absolute;
+  top: 88px;
+  width: 29px;
+}

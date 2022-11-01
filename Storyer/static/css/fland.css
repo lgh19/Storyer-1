@@ -1,0 +1,138 @@
+/* screen - fland */
+
+.fland {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 800px;
+  padding: 23.0px 42px;
+  width: 1280px;
+}
+
+.fland .overlap-group {
+  border-radius: 40px;
+  height: 754px;
+  margin-top: 0;
+  position: relative;
+  width: 1196px;
+}
+
+.fland .group-1 {
+  background-color: var(--cascade);
+  border-radius: 40px;
+  display: flex;
+  height: 754px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1196px;
+}
+
+.fland .rectangle-54 {
+  background-color: var(--axolotl);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 40px 40px 0px 0px;
+  flex: 1;
+  height: 200px;
+  margin-left: 1px;
+  opacity: 0.7;
+}
+
+.fland .rectangle-60 {
+  background-color: var(--white);
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px #00000029;
+  height: 314px;
+  left: 322px;
+  opacity: 0.8;
+  position: absolute;
+  top: 314px;
+  width: 552px;
+}
+
+.fland .rectangle-77 {
+  background: linear-gradient(180deg, #1590eb 0%, #0b4876 100%);
+  border-radius: 46px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 66px;
+  left: 396px;
+  position: absolute;
+  top: 387px;
+  width: 192px;
+}
+
+.fland .assignments {
+  color: var(--white);
+  font-family: var(--font-family-alnile-bold);
+  font-size: 22px;
+  font-weight: 700;
+  left: 421px;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 414px;
+  white-space: nowrap;
+}
+
+.fland .rectangle-77-1 {
+  background: linear-gradient(180deg, #1590eb 0%, #0b4876 100%);
+  border-radius: 46px;
+  box-shadow: 0px 3px 6px #00000029;
+  cursor: pointer;
+  height: 66px;
+  left: 396px;
+  position: absolute;
+  top: 508px;
+  width: 404px;
+}
+
+.fland .student-information {
+  color: var(--white);
+  cursor: pointer;
+  font-family: var(--font-family-alnile-bold);
+  font-size: 27px;
+  font-weight: 700;
+  left: 471px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  text-align: center;
+  top: 531px;
+  white-space: nowrap;
+}
+
+.fland .rectangle-91 {
+  background: linear-gradient(180deg, #1590eb 0%, #0b4876 100%);
+  border-radius: 46px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 66px;
+  left: 608px;
+  position: absolute;
+  top: 387px;
+  width: 192px;
+}
+
+.fland .create {
+  color: var(--white);
+  font-family: var(--font-family-alnile-bold);
+  font-size: 22px;
+  font-weight: 700;
+  left: 670px;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 412px;
+  white-space: nowrap;
+}
+
+.fland .unknown {
+  height: 77px;
+  left: 62px;
+  object-fit: cover;
+  position: absolute;
+  top: 64px;
+  width: 259px;
+}

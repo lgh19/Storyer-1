@@ -2,28 +2,28 @@ Front End Development
 Colors: 
 #486A4F (banner color) 
 #86ACAB (page color)
-#1590EB Linear Gradient (button color)
+#1590EB opacity (button color)
 Gray
 Black 
 
 Page names 
 Facility 
-Index.html: Sign on 
-Initial.html : initial sign up 
-Ru.html: initial sign on 
-groups.html: Facility create groups
+index.html: question with logo prior to initial !DONE
+Initial.html: initial sign on  !DONE
+create.html: Facility create groups IN PROGRESS 
+signon.html sign on !DONE
 FLand.html: facility lander 
-create.html: facility create assignment page 
+assign.html: facility create assignment page 
 Fsubmit.html: facility assignments submitted page 
 Fgroups: facility groups page
 SInfo: student information facility 
 
 
 Student 
-Index.html: Sign on 
-Initial.html : initial sign up 
-Ru.html: initial sign on 
-Pick.html : pick groups 
+index.html: facility or student !DONE
+Initial.html: initial sign on  !DONE
+Pick.html : pick groups IN PROGRESS 
+signon : sing on !DONE  
 SLand.html: lander 
 Hw.html: assignment page 
 Ssubmit.html: submission page 

@@ -1,0 +1,138 @@
+/* screen - sign-up-facility */
+
+.sign-up-facility {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 800px;
+  padding: 58.4px 133px;
+  width: 1280px;
+}
+
+.sign-up-facility .overlap-group {
+  background-image: url(../img/hand-with-protective-gloves-holding-blood-samples-covid-test@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 20px;
+  height: 675px;
+  position: relative;
+  width: 1014px;
+}
+
+.sign-up-facility .rectangle-93 {
+  background-color: var(--licorice);
+  border-radius: 20px;
+  height: 550px;
+  left: 95px;
+  opacity: 0.8;
+  position: absolute;
+  top: 67px;
+  width: 825px;
+}
+
+.sign-up-facility .title {
+  color: var(--white);
+  font-family: var(--font-family-alnile-bold);
+  font-size: 54px;
+  font-weight: 700;
+  left: 398px;
+  letter-spacing: 0;
+  line-height: 54px;
+  opacity: 1.0;
+  position: absolute;
+  text-align: center;
+  top: 115px;
+  white-space: nowrap;
+}
+
+.sign-up-facility .rectangle-94 {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 66px;
+  left: 305px;
+  opacity: 0.8;
+  position: absolute;
+  top: 233px;
+  width: 404px;
+}
+
+.sign-up-facility .rectangle-95 {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 66px;
+  left: 305px;
+  opacity: 0.8;
+  position: absolute;
+  top: 309px;
+  width: 404px;
+}
+
+.sign-up-facility .rectangle-96 {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 10px;
+  height: 66px;
+  left: 305px;
+  opacity: 0.8;
+  position: absolute;
+  top: 384px;
+  width: 404px;
+}
+
+.sign-up-facility .place {
+  left: 319px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 260px;
+  white-space: nowrap;
+}
+
+.sign-up-facility .password {
+  left: 319px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 409px;
+  white-space: nowrap;
+}
+
+.sign-up-facility .email {
+  left: 319px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 336px;
+  white-space: nowrap;
+}
+
+.sign-up-facility .icon-awesome-backspace {
+  cursor: pointer;
+  height: 17px;
+  left: 876px;
+  object-fit: cover;
+  position: absolute;
+  top: 88px;
+  width: 29px;
+}
+
+.sign-up-facility .create {
+  cursor: pointer;
+  left: 467px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 544px;
+  white-space: nowrap;
+}

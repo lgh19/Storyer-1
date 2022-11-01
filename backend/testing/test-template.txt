@@ -1,0 +1,12 @@
+<num groups>;<num students>
+<student ID>;<group1 ID>;<group2 ID>;<groupN ID>
+
+line 1, num groups and num students
+line 2 and on is the student ID paired with their ordered list of group preferences
+until we have db ID will be the same as index
+use ';' as delimiter when splitting lines from this file into arrays
+don't forget to remove newline char and convert strings to ints where needed
+
+test 0 is very small but results in an even distribution
+test 1 has more students but is still a fairly even distribution
+test 2 has an uneven number of students to groups, with a heavy bias against a single group

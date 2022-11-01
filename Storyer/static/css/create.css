@@ -1,0 +1,178 @@
+/* screen - create */
+
+.create {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 800px;
+  padding: 0 42px;
+  width: 1280px;
+}
+
+.create .overlap-group {
+  border-radius: 40px;
+  height: 754px;
+  margin-top: 23px;
+  position: relative;
+  width: 1196px;
+}
+
+.create .group-1 {
+  background-color: var(--cascade);
+  border-radius: 40px;
+  display: flex;
+  height: 754px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1196px;
+}
+
+.create .rectangle-54 {
+  background-color: var(--axolotl);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 40px 40px 0px 0px;
+  flex: 1;
+  height: 200px;
+  margin-left: 1px;
+  opacity: 0.7;
+}
+
+.create .rectangle-60 {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px #00000029;
+  height: 153px;
+  left: 240px;
+  opacity: 0.8;
+  position: absolute;
+  top: 444px;
+  width: 396px;
+}
+
+.create .rectangle-61 {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px #00000029;
+  height: 41px;
+  left: 240px;
+  opacity: 0.8;
+  position: absolute;
+  top: 343px;
+  width: 355px;
+}
+
+.create .name {
+  left: 240px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 319px;
+  white-space: nowrap;
+}
+
+.create .description {
+  left: 240px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 420px;
+  white-space: nowrap;
+}
+
+.create .rectangle-90 {
+  background: linear-gradient(180deg, #1590eb 0%, #0e446c 100%);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 50px;
+  left: 240px;
+  position: absolute;
+  top: 615px;
+  width: 146px;
+}
+
+.create .upload {
+  left: 279px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 632px;
+  white-space: nowrap;
+}
+
+.create .rectangle-52 {
+  background: linear-gradient(180deg, #1590eb 0%, #133245 100%);
+  border-radius: 57px;
+  cursor: pointer;
+  height: 50px;
+  left: 1057px;
+  position: absolute;
+  top: 665px;
+  width: 103px;
+}
+
+.create .save {
+  cursor: pointer;
+  left: 1088px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 685px;
+  white-space: nowrap;
+}
+
+.create .rectangle-52-1 {
+  background: linear-gradient(180deg, #1590eb 0%, #133245 100%);
+  border-radius: 57px;
+  cursor: pointer;
+  height: 50px;
+  left: 945px;
+  position: absolute;
+  top: 665px;
+  width: 103px;
+}
+
+.create .go-back {
+  cursor: pointer;
+  left: 960px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 686px;
+  white-space: nowrap;
+}
+
+.create .create-1 {
+  color: var(--black);
+  font-family: var(--font-family-sinhalamn-bold);
+  font-size: 40px;
+  font-weight: 700;
+  left: 436px;
+  letter-spacing: 0;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 10px 20px #00000029;
+  top: 219px;
+  width: 327px;
+}
+
+.create .unknown {
+  height: 77px;
+  left: 62px;
+  object-fit: cover;
+  position: absolute;
+  top: 64px;
+  width: 259px;
+}

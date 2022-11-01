@@ -1,0 +1,129 @@
+/* screen - hw */
+
+.hw {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 800px;
+  padding: 23.0px 42px;
+  width: 1280px;
+}
+
+.hw .overlap-group {
+  border-radius: 40px;
+  height: 754px;
+  margin-top: 0;
+  position: relative;
+  width: 1196px;
+}
+
+.hw .group-1 {
+  background-color: var(--cascade);
+  border-radius: 40px;
+  display: flex;
+  height: 754px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1196px;
+}
+
+.hw .rectangle-54 {
+  background-color: var(--axolotl);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 40px 40px 0px 0px;
+  flex: 1;
+  height: 200px;
+  margin-left: 1px;
+  opacity: 0.7;
+}
+
+.hw .rectangle-75 {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 339px;
+  left: 361px;
+  opacity: 0.8;
+  position: absolute;
+  top: 288px;
+  width: 474px;
+}
+
+.hw .icon-awesome-home {
+  cursor: pointer;
+  height: 41px;
+  left: 38px;
+  object-fit: cover;
+  position: absolute;
+  top: 233px;
+  width: 48px;
+}
+
+.hw .rectangle-52 {
+  background: linear-gradient(180deg, #1590eb 0%, #133245 100%);
+  border-radius: 57px;
+  cursor: pointer;
+  height: 50px;
+  left: 1011px;
+  position: absolute;
+  top: 629px;
+  width: 103px;
+}
+
+.hw .continue {
+  cursor: pointer;
+  left: 1020px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 650px;
+  white-space: nowrap;
+}
+
+.hw .rectangle-52-1 {
+  background: linear-gradient(180deg, #1590eb 0%, #133245 100%);
+  border-radius: 57px;
+  cursor: pointer;
+  height: 50px;
+  left: 899px;
+  position: absolute;
+  top: 629px;
+  width: 103px;
+}
+
+.hw .go-back {
+  cursor: pointer;
+  left: 914px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 650px;
+  white-space: nowrap;
+}
+
+.hw .assignment {
+  height: 51px;
+  left: 436px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 10px 20px #00000029;
+  top: 215px;
+  width: 327px;
+}
+
+.hw .unknown {
+  height: 77px;
+  left: 62px;
+  object-fit: cover;
+  position: absolute;
+  top: 64px;
+  width: 259px;
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<head>
+    <h1>Choose Groups</h1>
+    {% if student %}
+    <h2>Student: {{student.name}}</h2>
+    {% endif %}
+</head>
+{% if assignment_list %}
+<ul>
+    {% for assignment in assignment_list %}
+    <li>{{ assignment.title }}</li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>No Assignments are available.</p>
+{% endif %}

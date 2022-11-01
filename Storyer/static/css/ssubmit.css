@@ -1,0 +1,179 @@
+/* screen - ssubmit */
+
+.ssubmit {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 800px;
+  padding: 23.0px 42px;
+  width: 1280px;
+}
+
+.ssubmit .overlap-group {
+  border-radius: 40px;
+  height: 754px;
+  margin-top: 0;
+  position: relative;
+  width: 1196px;
+}
+
+.ssubmit .group-1 {
+  background-color: var(--cascade);
+  border-radius: 40px;
+  display: flex;
+  height: 754px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1196px;
+}
+
+.ssubmit .rectangle-54 {
+  background-color: var(--axolotl);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 40px 40px 0px 0px;
+  flex: 1;
+  height: 200px;
+  margin-left: 1px;
+  opacity: 0.7;
+}
+
+.ssubmit .rectangle-75 {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 206px;
+  left: 576px;
+  opacity: 0.8;
+  position: absolute;
+  top: 295px;
+  width: 518px;
+}
+
+.ssubmit .video-link-drop-here {
+  color: var(--black);
+  font-family: var(--font-family-alnile-bold);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  left: 718px;
+  letter-spacing: 0;
+  line-height: 20px;
+  opacity: 0.5;
+  position: absolute;
+  text-align: center;
+  top: 392px;
+  white-space: nowrap;
+}
+
+.ssubmit .grouppeopleteamusers {
+  height: 107px;
+  left: 265px;
+  object-fit: cover;
+  position: absolute;
+  top: 337px;
+  width: 107px;
+}
+
+.ssubmit .rectangle-74 {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 66px;
+  left: 119px;
+  opacity: 0.8;
+  position: absolute;
+  top: 474px;
+  width: 404px;
+}
+
+.ssubmit .rectangle-76 {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 66px;
+  left: 576px;
+  opacity: 0.8;
+  position: absolute;
+  top: 512px;
+  width: 518px;
+}
+
+.ssubmit .poster-file-drop-here {
+  color: var(--black);
+  font-family: var(--font-family-alnile-bold);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  left: 734px;
+  letter-spacing: 0;
+  line-height: 16px;
+  opacity: 0.5;
+  position: absolute;
+  text-align: center;
+  top: 543px;
+  white-space: nowrap;
+}
+
+.ssubmit .rectangle-52 {
+  background: linear-gradient(180deg, #1590eb 0%, #133245 100%);
+  border-radius: 57px;
+  cursor: pointer;
+  height: 50px;
+  left: 1011px;
+  position: absolute;
+  top: 629px;
+  width: 103px;
+}
+
+.ssubmit .submit {
+  cursor: pointer;
+  left: 1032px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 649px;
+  white-space: nowrap;
+}
+
+.ssubmit .rectangle-52-1 {
+  background: linear-gradient(180deg, #1590eb 0%, #133245 100%);
+  border-radius: 57px;
+  cursor: pointer;
+  height: 50px;
+  left: 899px;
+  position: absolute;
+  top: 629px;
+  width: 103px;
+}
+
+.ssubmit .go-back {
+  cursor: pointer;
+  left: 914px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 650px;
+  white-space: nowrap;
+}
+
+.ssubmit .unknown {
+  height: 77px;
+  left: 62px;
+  object-fit: cover;
+  position: absolute;
+  top: 64px;
+  width: 259px;
+}
+
+.ssubmit .icon-awesome-home {
+  height: 41px;
+  left: 38px;
+  object-fit: cover;
+  position: absolute;
+  top: 233px;
+  width: 48px;
+}
