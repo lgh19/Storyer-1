@@ -10,7 +10,7 @@ class Student(models.Model):
     name = models.CharField(max_length=250, blank=False, null=False)
     email = models.EmailField(blank=False, null=False)
     password = models.CharField(max_length=50, blank=False, null=False)
-    group = models.ForeignKey("Group", on_delete = models.DO_NOTHING, null=True, related_name="assigned_group")
+    group = models.ManyToManyField("Group", blank=True, related_name="assigned_group")
     preferences = models.ManyToManyField("Group", through="Preference", related_name="group_preferences")
 
     def __str__(self):
@@ -29,6 +29,7 @@ class Preference(models.Model):
 class Group(models.Model):
     name = models.CharField(max_length=100, blank=False, null=False)
     description = models.TextField(blank=True, null=True)
+    course = models.ForeignKey("Course", on_delete=models.CASCADE, blank=False, null=True)
 
     def __str__(self):
         return self.name
@@ -36,6 +37,27 @@ class Group(models.Model):
 class Assignment(models.Model):
     title = models.CharField(max_length=250, blank=False, null=False)
     description = models.TextField(blank=False, null=False)
+    group = models.ForeignKey("Group", on_delete=models.DO_NOTHING, blank=False, null=True)
+    zoom_link = models.URLField(blank=True, null=False)
+    video_link = models.URLField(blank=True, null=False)
+    slides_link = models.URLField(blank=True, null=False)
+    questions_link = models.URLField(blank=True, null=False)
 
     def __str__(self):
         return self.title
+
+class Faculty(models.Model):
+    name = models.CharField(max_length=250, blank=False, null=False)
+    email = models.EmailField(blank=False, null=False)
+    password = models.CharField(max_length=50, blank=False, null=False)
+
+    def __str__(self):
+        return self.name
+
+class Course(models.Model):
+    name = models.CharField(max_length=250, blank=False, null=False)
+    code = models.CharField(max_length=25, blank=False, null=False)
+    creator = models.ForeignKey("Faculty", on_delete = models.DO_NOTHING, null=False)
+
+    def __str__(self):
+        return self.name
