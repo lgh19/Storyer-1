@@ -27,10 +27,10 @@ class Command(BaseCommand):
 
     # prints out all students in db
     def handle(self, *args, **options):
-        # clear all current assigned groups relationships:
+        # clear all current assigned groups relationships
         for group in Group.objects.all():
             for student in group.assigned_group.all():
-                student.group = None
+                student.group.remove(group)
                 student.save()
             if(options['debug']):
                 print(group, ": ", group.assigned_group.all())
