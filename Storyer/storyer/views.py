@@ -34,6 +34,28 @@ def signup(request):
 
     return render(request, 'initial.html')
 
+def signup_faculty(request):
+    if request.method == "POST":
+        context = {}
+        post_data = request.POST or None
+        if post_data is not None:
+            signup_form = SignupForm(post_data)
+            if signup_form.is_valid():
+                signup_form = signup_form.cleaned_data
+                if not Faculty.objects.filter(email=signup_form['email']).exists():
+                    name = (signup_form['first_name'].replace(" ", "").title(
+                    ))+" "+signup_form['last_name'].replace(" ", "").title()
+                    new_faculty = Faculty(
+                        name=name, email=signup_form['email'], password=signup_form['password'])
+                    new_faculty.save()
+                    return faculty_detail(request, new_faculty.id)
+                else:
+                    context.update({"exists": True})
+        context.update({'error_message': True})
+        return render(request, 'initial_faculty.html', context)
+
+    return render(request, 'initial_faculty.html')
+
 
 # student login only
 def login(request):
@@ -43,6 +65,7 @@ def login(request):
             login_form = LoginForm(post_data)
             if login_form.is_valid():
                 login_form = login_form.cleaned_data
+                # look for student in user list
                 student = Student.objects.filter(
                     email=login_form['email'], password=login_form['password']).first()
                 if student is not None:
@@ -51,6 +74,25 @@ def login(request):
         return render(request, 'login.html', context)
 
     return render(request, 'login.html')
+
+# faculty login only
+def login_faculty(request):
+    if request.method == "POST":
+        post_data = request.POST or None
+        if post_data is not None:
+            login_form = LoginForm(post_data)
+            if login_form.is_valid():
+                login_form = login_form.cleaned_data
+                # look for student in user list
+                faculty = Faculty.objects.filter(
+                    email=login_form['email'], password=login_form['password']).first()
+                if faculty is not None:
+                    return faculty_detail(request, faculty.id)
+        context = {'error_message': True}
+        return render(request, 'login-faculty.html', context)
+
+    return render(request, 'login-faculty.html')
+
 
 
 def student_detail(request, student_id):
