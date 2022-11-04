@@ -171,10 +171,9 @@ body
     margin: 15px;
 }
 
-
-
 /* end of student lander style */
 
+/* start of hw*/
 .hw
 {
     display: flex;
@@ -186,3 +185,46 @@ body
 {
     justify-content: center;
 } /* any styling for this can be added here, i just figured it needs to be centered*/
+
+/* end of hw*/ 
+
+
+/* start of check*/ 
+
+.check img
+{
+    width: 200px;
+    height: 200px;
+    padding-top: 50px;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    float: left;
+}
+.group-name
+{
+    border-radius: 24px;
+    height: 40px;
+    background-color:#486a4f8a;
+    padding-right: 20px;
+    margin: 15px;
+    size: 30px;
+}
+
+/* end of check*/ 
+
+/*start of fsubmit*/
+
+
+.submissions img
+{
+    width: 200px;
+    height: 200px;
+    padding-top: 50px;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+/*end of fsubmit*/
