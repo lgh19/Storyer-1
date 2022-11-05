@@ -228,3 +228,19 @@ body
 }
 
 /*end of fsubmit*/
+
+/* start of fland*/ 
+
+.facility-land-buttons 
+{
+    text-align: center;
+    padding: 5px 5px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px; 
+    border-radius: 8px;
+    background:rgba(149, 138, 138, 0.8);
+}
+
+
+/* end of fland*/ 
