@@ -26,7 +26,7 @@ def signup_student(request):
                     new_student = Student(
                         name=name, email=signup_form['email'], password=signup_form['password'])
                     new_student.save()
-                    return student_detail(request, new_student.id)
+                    return student_home(request, new_student.id)
                 else:
                     context.update({"exists": True})
         context.update({'error_message': True})
@@ -93,7 +93,6 @@ def login_faculty(request):
                     return faculty_detail(request, faculty.id)
         context = {'error_message': True}
         return render(request, 'login-faculty.html', context)
-
     return render(request, 'login-faculty.html')
 
 
@@ -109,4 +108,4 @@ def pick_groups(request, student_id):
         'student': student,
         'group_list': assignment_list,
     }
-    return render(request, 'pick_groups.html', context)
+    return render(request, 'student-pick.html', context)

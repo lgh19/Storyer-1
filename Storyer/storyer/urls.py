@@ -11,5 +11,6 @@ urlpatterns = [
     path('signup_faculty', views.signup_faculty, name='signup_faculty'),
     path('student-home/<int:student_id>/',
          views.student_home, name='student-home'),
-    path('groups/<int:student_id>/', views.pick_groups, name='pick_groups'),
+    path('groups/<int:student_id>/', views.pick_groups,
+         name='student-pick-groups'),
 ]
