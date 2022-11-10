@@ -12,7 +12,7 @@ def index(request):
     return render(request, 'index.html')
 
 
-def signup(request):
+def signup_student(request):
     if request.method == "POST":
         context = {}
         post_data = request.POST or None
@@ -30,9 +30,10 @@ def signup(request):
                 else:
                     context.update({"exists": True})
         context.update({'error_message': True})
-        return render(request, 'initial.html', context)
+        return render(request, 'student-signup.html', context)
 
-    return render(request, 'initial.html')
+    return render(request, 'student-signup.html')
+
 
 def signup_faculty(request):
     if request.method == "POST":
@@ -58,7 +59,7 @@ def signup_faculty(request):
 
 
 # student login only
-def login(request):
+def login_student(request):
     if request.method == "POST":
         post_data = request.POST or None
         if post_data is not None:
@@ -69,13 +70,15 @@ def login(request):
                 student = Student.objects.filter(
                     email=login_form['email'], password=login_form['password']).first()
                 if student is not None:
-                    return student_detail(request, student.id)
+                    return student_home(request, student.id)
         context = {'error_message': True}
-        return render(request, 'login.html', context)
+        return render(request, 'student-login.html', context)
 
-    return render(request, 'login.html')
+    return render(request, 'student-login.html')
 
 # faculty login only
+
+
 def login_faculty(request):
     if request.method == "POST":
         post_data = request.POST or None
@@ -94,10 +97,9 @@ def login_faculty(request):
     return render(request, 'login-faculty.html')
 
 
-
-def student_detail(request, student_id):
+def student_home(request, student_id):
     student = get_object_or_404(Student, pk=student_id)
-    return render(request, 'student_detail.html', {'student': student})
+    return render(request, 'student-home.html', {'student': student})
 
 
 def pick_groups(request, student_id):
